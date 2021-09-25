@@ -54,7 +54,7 @@ return
 
 togF4 := 0
 $F4::
-togF4 := !togF2
+togF4 := !togF4
 if (togF4) {
 	SetTimer, RepeatFour
 	}
